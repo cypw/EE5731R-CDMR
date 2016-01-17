@@ -1,7 +1,9 @@
 # EE5731R-CDMR
 Course project for Visual Computing course [EE5731R](http://php-robbytan.rhcloud.com/teaching/2015_nus_visual/index.html).
 
+
 ## Motivation
+-------
 
 Write a program in matlab to estimate depth map from video using this method: [Depth Map from Video Sequence](http://www.cad.zju.edu.cn/home/bao/pub/Consistent_Depth_Maps_Recovery_from_a_Video_Sequence.pdf).
 
@@ -11,16 +13,11 @@ To make it simple, I only reimplemented:
 
 > *Contain some minor changes.*
 
-### Tested On
+![example](example.png)
 
-- MATLAB 2014B x64:
-  - With Parallel Computing Toolbox.
-
-- UBUNTU 14.04 LTS x64
-  - Intel i7-5820k, 3.3GHz
-  - Memory DDR4 2133MHz 64gb (16GBx4)
 
 ### Brief Guide
+-------
 
 [0] Place The unzipped Video Dataset(s) at `./video/{$DATASETNAME}/src/{$IMAGENAME}.jpg`
 - `$DATASETNAME = Road`, url: http://www.cad.zju.edu.cn/home/gfzhang/projects/videodepth/data/Road.zip
@@ -41,7 +38,19 @@ To make it simple, I only reimplemented:
 >  Depend on your computer's permorfance, It may cost 30~60 mins for processing 1 frame with 20 neighborhoods.
 >  You can (but not recommend) cut the neighborhood frame number for acceleration (~5mins/frame). 
 
+
+### Tested On
+-------
+
+MATLAB 2014B x64:
+- With Parallel Computing Toolbox.
+
+UBUNTU 14.04 LTS x64
+- Intel i7-5820k, 3.3GHz
+- Memory DDR4 2133MHz 64gb (16GBx4)
+
 ### Noted:
+-------
 
 All three datasets have been processed by a distributed computing cluster.
 (12 computers, 72 cpu cores intotal)
@@ -55,7 +64,9 @@ It costed:
 > Sorry for didn't optimize the speed.
 > Please make sure your computer is powerful enough and yourself is patient enough to run this code.
 
+
 ### Reference:
+-------
 
 Zhang, Guofeng, et al. "Consistent depth maps recovery from a video sequence." Pattern Analysis and Machine Intelligence, IEEE Transactions on 31.6 (2009): 974-988.
 
