@@ -10,9 +10,9 @@ To make it simple, I only reimplemented:
 - Disparity Initialization for video.
 - Bundle Optimization for video.
 
-> *Contain some minor changes.*
-
 ![example](example.png)
+
+> *Contain some minor changes.*
 
 
 ## Brief Guide
