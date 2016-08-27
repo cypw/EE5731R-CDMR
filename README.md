@@ -66,8 +66,8 @@ It costed:
 Zhang, Guofeng, et al. "Consistent depth maps recovery from a video sequence." Pattern Analysis and Machine Intelligence, IEEE Transactions on 31.6 (2009): 974-988.
 
 
-
-
+-----------
+*For those who are taking this course, please be aware that this repo is just for your reference and plagiarism is a serious offense in nus.
 
 
 
